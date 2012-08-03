@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/indragiek/SNRHUDKit.git' }
 
   s.platform = :osx
-  s.osx.source_files = 'src/**/*.{h,m}'
+  s.osx.source_files = 'SNRHUDKit/**/*.{h,m}'
 end
