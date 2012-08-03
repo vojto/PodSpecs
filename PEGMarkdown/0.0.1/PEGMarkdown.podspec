@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.platform = :osx
   s.osx.source_files = [
     'example_cocoa/HG*',
-    'example_cocoa/pmh_*'
+    'pmh_*'
   ]
 end
