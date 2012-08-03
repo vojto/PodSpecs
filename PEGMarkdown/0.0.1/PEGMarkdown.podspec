@@ -9,6 +9,10 @@ Pod::Spec.new do |s|
   s.platform = :osx
   s.osx.source_files = [
     'example_cocoa/HG*',
-    'pmh_*'
+    'pmh_styleparser.c',
+    'pmh_styleparser.h',
+    'pmh_definitions.h',
+    'pmh_parser.c',
+    'pmh_parser.h'
   ]
 end
