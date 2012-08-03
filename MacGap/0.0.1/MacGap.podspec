@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/maccman/macgap.git' }
 
   s.platform = :osx
-  s.osx.source_files = 'MacGap/**/*.{h,m}'
+  s.osx.source_files = 'MacGap/Classes/**/*.{h,m}'
 
   s.framework = 'WebKit'
 end
