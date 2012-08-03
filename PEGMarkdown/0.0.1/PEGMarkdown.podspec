@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     'pmh_styleparser.c',
     'pmh_styleparser.h',
     'pmh_definitions.h',
-    'pmh_parser.c',
-    'pmh_parser.h'
+    'pmh_parser.*'
+    # 'pmh_parser.h'
   ]
 end
